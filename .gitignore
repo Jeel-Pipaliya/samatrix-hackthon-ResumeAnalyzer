@@ -1,0 +1,26 @@
+# Data directory (as requested)
+data/
+data/*
+
+# Large raw dataset files (>50MB)
+Resume.csv
+*.csv
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
