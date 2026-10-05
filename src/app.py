@@ -52,7 +52,7 @@ CATEGORY_ICONS = {
 
 # Streamlit Page Config
 st.set_page_config(
-    page_title="ResumeForge AI | Intelligent Resume Classifier",
+    page_title="ResumeClassifier | Intelligent Resume Classifier",
     page_icon="📄",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -265,7 +265,7 @@ def main():
 
     # 2. Sidebar Navigation & Controls
     with st.sidebar:
-        st.markdown("### 📄 **ResumeForge AI**")
+        st.markdown("### 📄 **ResumeClassifier**")
         st.caption("Next-Generation Multi-Class Resume Classification & ATS Intelligence Engine")
         
         # Model Status Box
